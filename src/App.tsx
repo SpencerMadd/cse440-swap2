@@ -75,10 +75,7 @@ export default function App() {
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-zinc-100">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-zinc-900 rounded-lg flex items-center justify-center text-white relative">
-              <Mic size={18} className="relative z-10" />
-              <Headphones size={24} className="absolute opacity-40" />
-            </div>
+            <img src="/logo.png" alt="Podparse Logo" className="w-20 h-20 object-contain" />
             <span className="font-bold text-xl tracking-tight">Podparse</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-500">
