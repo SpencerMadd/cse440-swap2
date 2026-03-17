@@ -75,7 +75,7 @@ export default function App() {
       <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-zinc-100">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Podparse Logo" className="w-20 h-20 object-contain" />
+            <img src="/logo.png" alt="Podparse Logo" className="w-20 h-20 object-contain scale-125" />
             <span className="font-bold text-xl tracking-tight">Podparse</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-500">
